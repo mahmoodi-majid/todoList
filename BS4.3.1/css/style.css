@@ -1,0 +1,24 @@
+.bg-master {
+    min-height: 450px;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../../img/bg-masthead.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#c4 > .row > .col-lg-6:first-of-type {
+    background-image: url(../../img/bg-showcase-1.jpg);
+    min-height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#c4 > .row:first-of-type > .col-lg-6:first-of-type {
+    background-image: url(../../img/bg-showcase-1.jpg);
+}
+#c4 > .row:nth-of-type(2) > .col-lg-6:first-of-type {
+    background-image: url(../../img/bg-showcase-2.jpg);
+}
+#c4 > .row:last-of-type > .col-lg-6:first-of-type {
+    background-image: url(../../img/bg-showcase-3.jpg);
+}
